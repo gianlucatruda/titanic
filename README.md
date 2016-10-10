@@ -18,17 +18,17 @@ Installation
   Please also ensure the Python 3.4 is installed,
   along with the following libraries:
 
-    * Matplotlib
-    * Requests
-    * Flask
-  
+  * Matplotlib
+  * Requests
+  * Flask
+
   If they aren't installed, you can install them through 'pip3'
   by opening your terminal and typing
-      sudo pip3 install [name of library]
+  ```sudo pip3 install {name of library}```
   to install. 
 
   If 'pip3' is not installed, install it by typing
-    > sudo apt-get install python3-pip
+  ```sudo apt-get install python3-pip```
 
 Usage Instructions
 -----------------------------
@@ -37,7 +37,7 @@ Usage Instructions
   This directory should contain 'titanic.py'.
 
   Type
-    > python3 titanic.py
+  ```python3 titanic.py```
   to run the script.
 
   Once it responds, a Flask server has been established
@@ -85,6 +85,6 @@ How does it work?
   Contacts
   --------
 
-     o Gianluca Truda — trdgia001@myuct.ac.za
+  o Gianluca Truda — trdgia001@myuct.ac.za
 
 
