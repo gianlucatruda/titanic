@@ -25,7 +25,7 @@
   -----------------------------
 
   In terminal, navigate to the project directory.
-  This is directory should contain 'titanic.py'.
+  This directory should contain 'titanic.py'.
 
   Type
   	> python3 titanic.py
@@ -34,7 +34,7 @@
   Once it responds, a Flask server has been established
   on your local machine.
 
-  Navigate to http://localhost:8080/
+  Navigate to http://localhost:8080
   to begin engaging with the software.
 
   When you are finished, press CTRL+C in terminal
@@ -67,10 +67,10 @@
   		instantiated for each parameter set (processed from
   		the JSON data).
 
-  	(3) Once the data has successfuly been downloaded and
+  	(3) Once the data has successfully been downloaded and
   		processed, Matplotlib is utilised to generate detailed 
   		graphics to illustrate the embarked/surviving data
-  		accross Sex, Age, and (cabin) Class. 
+  		across Sex, Age, and (cabin) Class. 
 
   		These graphics are rendered as .png files and 
   		then served up through Flask to the browser.
@@ -79,4 +79,5 @@
   --------
 
      o Gianluca Truda — trdgia001@myuct.ac.za
+
 
