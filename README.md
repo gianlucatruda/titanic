@@ -24,11 +24,11 @@ Installation
 
   If they aren't installed, you can install them through 'pip3'
   by opening your terminal and typing
-  ```sudo pip3 install {name of library}```
+    ```sudo pip3 install {name of library}```
   to install. 
 
   If 'pip3' is not installed, install it by typing
-  ```sudo apt-get install python3-pip```
+    ```sudo apt-get install python3-pip```
 
 Usage Instructions
 -----------------------------
@@ -37,7 +37,7 @@ Usage Instructions
   This directory should contain 'titanic.py'.
 
   Type
-  ```python3 titanic.py```
+    ```python3 titanic.py```
   to run the script.
 
   Once it responds, a Flask server has been established
@@ -49,10 +49,10 @@ Usage Instructions
   When you are finished, press CTRL+C in terminal
   to quit the script.
 
-  NOTE: If you are viewing the pages multiple times, it
-  might be necessary to do a 'hard refresh' to ensure
-  that the new data is loaded into the browser
-  instead of cached data. 
+    NOTE: If you are viewing the pages multiple times, it
+    might be necessary to do a 'hard refresh' to ensure
+    that the new data is loaded into the browser
+    instead of cached data. 
 
 
 How does it work?
