@@ -87,6 +87,8 @@ How does it work?
   Contacts
   --------
 
-  o Gianluca Truda — trdgia001@myuct.ac.za
+  * Gianluca Truda
+  * trdgia001@myuct.ac.za
+  * http://gianlucatruda.wordpress.com
 
 
