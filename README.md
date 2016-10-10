@@ -18,10 +18,10 @@ Installation
   Please also ensure the Python 3.4 is installed,
   along with the following libraries:
 
-  * Matplotlib
-  * Requests
-  * Flask
-
+    * Matplotlib
+    * Requests
+    * Flask
+  
   If they aren't installed, you can install them through 'pip3'
   by opening your terminal and typing
       sudo pip3 install [name of library]
@@ -64,25 +64,22 @@ How does it work?
 
   The script works in 3 stages:
 
-  	1. 
-      * Starts a Flask server on http://localhost:8080
+  	1. Starts a Flask server on http://localhost:8080
   		and serves up a landing page with more info.
 
-  	2.
-      * Waits for the user to request the data set,
+  	2. Waits for the user to request the data set,
   		at which point the Requests library is 
   		used to pull the JSON data from 
   		https://titanic.businessoptics.biz/survival .
-  		* A predefined class 'Passenger' is
+  		A predefined class 'Passenger' is
   		instantiated for each parameter set (processed from
   		the JSON data).
 
-  	3. 
-      * Once the data has successfully been downloaded and
+  	3. Once the data has successfully been downloaded and
   		processed, Matplotlib is utilised to generate detailed 
   		graphics to illustrate the embarked/surviving data
   		across Sex, Age, and (cabin) Class. 
-  		* These graphics are rendered as .png files and 
+  		These graphics are rendered as .png files and 
   		then served up through Flask to the browser.
 
   Contacts
