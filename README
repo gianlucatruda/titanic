@@ -5,8 +5,8 @@
 
   Installation
   ------------
-  Perform a simple "git pull" request from the URL
-  https://github.com/gianlucatruda/titanic
+  Perform a simple "git clone" request from the URL
+  https://github.com/gianlucatruda/titanic.git
   and all the relevant files will be downloaded.
 
   Please also ensure the Python 3.4 is installed,
@@ -16,10 +16,13 @@
   - Requests
   - Flask
 
-  If they aren't installed, try opening python in terminal
-  and typing
-  	> pip3 install <name of library>
-  to install.
+  If they aren't installed, you can install them through 'pip3'
+  by opening your terminal and typing
+  	> sudo pip3 install <name of library>
+  to install. 
+
+  If 'pip3' is not installed, install it by typing
+  	> sudo apt-get install python3-pip
 
   Usage Instructions
   -----------------------------
