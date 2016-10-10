@@ -1,11 +1,13 @@
 <p align="center">
-  <img src="https://gianlucatruda.files.wordpress.com/2016/10/03_survivorsbyage1.png" width="350"/>
+  <img src="https://gianlucatruda.files.wordpress.com/2016/10/03_survivorsbyage1.png" width="600"/>
 </p>	
 
+  
   What is this?
   -----------
   This is a relatively simple project to exhibit the extent of my experience 
   with data processing and visualisation.
+
 
   Installation
   ------------
@@ -22,11 +24,11 @@
 
   If they aren't installed, you can install them through 'pip3'
   by opening your terminal and typing
-  	> sudo pip3 install <name of library>
+      sudo pip3 install [name of library]
   to install. 
 
   If 'pip3' is not installed, install it by typing
-  	> sudo apt-get install python3-pip
+      sudo apt-get install python3-pip
 
   Usage Instructions
   -----------------------------
@@ -35,13 +37,13 @@
   This directory should contain 'titanic.py'.
 
   Type
-  	> python3 titanic.py
+      python3 titanic.py
   to run the script.
 
   Once it responds, a Flask server has been established
   on your local machine.
 
-  Navigate to http://localhost:8080
+  Navigate to http://localhost:8080/
   to begin engaging with the software.
 
   When you are finished, press CTRL+C in terminal
@@ -69,7 +71,6 @@
   		at which point the Requests library is 
   		used to pull the JSON data from 
   		https://titanic.businessoptics.biz/survival
-  		
   		A predefined class 'Passenger' is
   		instantiated for each parameter set (processed from
   		the JSON data).
@@ -78,7 +79,6 @@
   		processed, Matplotlib is utilised to generate detailed 
   		graphics to illustrate the embarked/surviving data
   		across Sex, Age, and (cabin) Class. 
-
   		These graphics are rendered as .png files and 
   		then served up through Flask to the browser.
 
