@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Modified by Gianluca Truda and redistributed under CCA 3.0.
+-->
+<html>
+	<head>
+		<title>Titanic Survivors</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="" class="logo"><strong>Titanic</strong> <span>by Gianluca Truda</span></a>
+					</header>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Visualising Titanic Survivorship</h1>
+							</header>
+							<div class="content">
+								<p>A Python 3.4 application, utilising Matplotlib,<br />
+								and released under the Creative Commons.</p>
+								<ul class="actions">
+									<li><a href="#two" class="button next scrolly">Check It Out</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>LEGAL DISCLAIMER</h2>
+									</header>
+									<p><a href='https://html5up.net/forty'>FORTY</a> is a free site template designed by <a href='https://html5up.net/forty'>HTML5 UP</a> and released under the Creative Commons 3.0 License for commercial and non-commercial reuse with modification. It has been adapted for this particular project by Gianluca Truda. 
+									</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h3>Visualising the data</h3>
+									</header>
+									<p>This requires that your device has Python 3.4 installed and that the following libraries are available:</p>
+									<ul>
+										<li>Matplotlib</li>
+										<li>Requests</li>
+										<li>Flask</li>
+									</ul>
+									<ul class="actions">
+										<li><a href="http://localhost:8080/visual" class="button">Visualise Now</a></li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>About Gianluca</h2>
+									</header>
+									<p>I'm an enthusiastic student pursuing a BSc in Computer Science and Genetics. I enjoy writing, wine-tasting, and playing guitar. Whilst my scientific interests lie in the fields of AI, Machine Learning, and the Quantified Self, I can often be found dabbling in filmmaking, robotics, and public speaking.</p><p>I've always had an insatiable appetite for exploring interesting ideas, and I aim to devote my future efforts to unifying the fields of biotechnology and abstract machine learning.</p>
+									<ul class="actions">
+										<li><a href="http://gianlucatruda.wordpress.com" class="button next">My Website</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<img src="images/profile01.jpg" width=70%>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon alt fa-envelope"></span>
+										<h3>Email</h3>
+										trdgia001@myuct.ac.za
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>076 393 2072</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://github.com/gianlucatruda" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://za.linkedin.com/in/gianluca-truda-47a605113" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<!-- Added by Gianluca Truda -->
+			<script language="javascript"> 
+				function DoPost(){
+					$.post("http://localhost:8080/", {} );
+				}
+			</script>
+
+	</body>
+</html>
