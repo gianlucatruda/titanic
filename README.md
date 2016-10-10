@@ -1,7 +1,9 @@
-<center><a href="http://www.youtube.com/watch?feature=player_embedded&v=wozGawDTALM
-" target="_blank"><img src="http://img.youtube.com/vi/wozGawDTALM/0.jpg" 
-alt="Problem loading image" width="560" height="315" border="10" /></a>
-<p>Click the above image to see a YouTube demo.</p></center>
+<p align="center">
+  <a href="http://www.youtube.com/watch?feature=player_embedded&v=wozGawDTALM
+  " target="_blank"><img src="http://img.youtube.com/vi/wozGawDTALM/0.jpg" 
+  alt="Problem loading image" width="560" height="315" border="10" /></a>
+  Click the above image to see a YouTube demo.
+</p>
 
 What is this?
 -----------
