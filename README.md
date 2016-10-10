@@ -2,15 +2,15 @@
   <img src="https://gianlucatruda.files.wordpress.com/2016/10/03_survivorsbyage1.png" width="600"/>
 </p>	
 
-  
-  What is this?
-  -----------
+
+What is this?
+-----------
   This is a relatively simple project to exhibit the extent of my experience 
   with data processing and visualisation.
 
 
-  Installation
-  ------------
+Installation
+------------
   Perform a simple "git clone" request from the URL
   https://github.com/gianlucatruda/titanic.git
   and all the relevant files will be downloaded.
@@ -18,9 +18,9 @@
   Please also ensure the Python 3.4 is installed,
   along with the following libraries:
 
-  - Matplotlib
-  - Requests
-  - Flask
+  * Matplotlib
+  * Requests
+  * Flask
 
   If they aren't installed, you can install them through 'pip3'
   by opening your terminal and typing
@@ -28,16 +28,16 @@
   to install. 
 
   If 'pip3' is not installed, install it by typing
-      sudo apt-get install python3-pip
+    > sudo apt-get install python3-pip
 
-  Usage Instructions
-  -----------------------------
+Usage Instructions
+-----------------------------
 
   In terminal, navigate to the project directory.
   This directory should contain 'titanic.py'.
 
   Type
-      python3 titanic.py
+    > python3 titanic.py
   to run the script.
 
   Once it responds, a Flask server has been established
@@ -55,8 +55,8 @@
   instead of cached data. 
 
 
-  How does it work?
-  -----------
+How does it work?
+-----------
   It consists of a single Python 3.4 script, which is responsible for
   the vast majority of the functionality. This is complemented with
   html files (and associated assets, scripts, etc.) to enhance the
@@ -64,22 +64,25 @@
 
   The script works in 3 stages:
 
-  	(1) Starts a Flask server on http://localhost:8080
+  	1. 
+      * Starts a Flask server on http://localhost:8080
   		and serves up a landing page with more info.
 
-  	(2) Waits for the user to request the data set,
+  	2.
+      * Waits for the user to request the data set,
   		at which point the Requests library is 
   		used to pull the JSON data from 
-  		https://titanic.businessoptics.biz/survival
-  		A predefined class 'Passenger' is
+  		https://titanic.businessoptics.biz/survival .
+  		* A predefined class 'Passenger' is
   		instantiated for each parameter set (processed from
   		the JSON data).
 
-  	(3) Once the data has successfully been downloaded and
+  	3. 
+      * Once the data has successfully been downloaded and
   		processed, Matplotlib is utilised to generate detailed 
   		graphics to illustrate the embarked/surviving data
   		across Sex, Age, and (cabin) Class. 
-  		These graphics are rendered as .png files and 
+  		* These graphics are rendered as .png files and 
   		then served up through Flask to the browser.
 
   Contacts
