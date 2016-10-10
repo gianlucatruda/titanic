@@ -1,4 +1,6 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wozGawDTALM" frameborder="0" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=wozGawDTALM
+" target="_blank"><img src="http://img.youtube.com/vi/wozGawDTALM/0.jpg" 
+alt="Problem loading image" width="560" height="315" border="10" /></a>
 
 What is this?
 -----------
